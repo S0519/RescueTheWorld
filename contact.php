@@ -1,4 +1,10 @@
-
+<?php 
+if($_POST)
+{
+  $msg = $_POST['msg'];
+  mail("hardworkerhamza@gmail.com","Message from ".$_POST['name']." | ".$_POST['email'],$msg);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +17,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/main.css">
-    <title>About Us</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="container-fluid p-0" id="mainCon2">
@@ -30,7 +36,7 @@
             </div>
         </div>
         <div class="section section2">
-          <h1>Promotes economic independence around the world</h1>
+          <h1>Contact Us</h1>
           <p>Save Lives, Support Economic Independence</p>
         </div>
       
@@ -46,13 +52,13 @@
                   <a class="nav-link text-center" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active text-center" href="about.html">About Us</a>
+                  <a class="nav-link text-center" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-center" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-center" href="contact.html">Contact Us</a>
+                  <a class="nav-link active text-center" href="contact.html">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -60,7 +66,7 @@
         
         <div class="sideIcons">
           <a href="https://www.facebook.com/rescuetheworldinc"><button class="btn socialIcons mb-5"><i class="fab fa-facebook-f"></i></button></a><br>
-          <a href="mailto:info@rescueworld.com"><button class="btn socialIcons"><i class="fas fa-envelope"></i></button></a>
+          <a href="mailto:social@rescuetheworldinc.org"><button class="btn socialIcons"><i class="fas fa-envelope"></i></button></a>
         </div>
 
     </div>
@@ -70,60 +76,16 @@
         <div class="col-lg-12">
             <div class="sameLine">
               <img src="Images/dots.png">
-              <h3>Rescue The World has been incorporated since May, 2016</h3>
+              <h3>Message Sent Successfully</h3>
             </div>
         </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-12">
-            <img src="Images/map.png" width="100%">
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-6">
-            <div class="sameLine">
-              <img src="Images/dots.png">
-              <h3>Mission statement</h3>
-            </div>
-        </div>
-        <div class="col-lg-6">
+        <div class="col-lg-7">
           <hr class="line">
         </div>
       </div>
       <div class="row mt-4">
-        <div class="col-lg-6">
-            <p class="text-justify pr-0 pr-lg-5">
-              Rescue world was incorporated with an intention of providing humanitarian relief during times of disasters in vulnerable regions. In addition, the humanitarian organization engages in activities that promote economic independence around the world due to the prevalence of poverty and other misfortunes facing various population segments.
-Based on the below illustration, it is justified that poverty is affecting millions of people in the world, including vulnerable demographics like children. The truth is that more people are living below the poverty line, and they are affected in life aspects like health, sanitation, food, and other services necessary for supporting basic human life. Therefore, the organization is required to counteract these implications through empowerment programs and disaster relief as being done in countries like Tanzania. 
-            </p>
-        </div>
-        <div class="col-lg-6">
-            <img class="largeServiceImg2" src="Images/impact areas.jpg">
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-6">
-            <div class="sameLine">
-              <img src="Images/dots.png">
-              <h3>Organizational profile</h3>
-            </div>
-        </div>
-        <div class="col-lg-6">
-          <hr class="line">
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-6">
-            <img class="largeServiceImg2" src="Images/Services 1.jpg">
-        </div>
-        <div class="col-lg-6">
-            <p class="text-justify pr-0 pr-lg-5">
-              This humanitarian organization was initiated by victims of disasters at least once in their life. 
-              A majority of the people have experience in disaster and have known what it takes to work with limited resources to provide hope to the unfortunate. 
-              These people were helped by others hence, their motivation to begin this Texas-based non-profit organization to provide relief to others who desire assistance around the world. 
-              The board of management is therefore composed of directors who have experienced crisis in their lives, as well as mastered expertise in counseling, pastoral care, business, and community development. 
-              Based on the above profile, the board members listed below have proven their expertise in international affairs when it comes to coordinating and providing relief to vulnerable populations.
-            </p>
+        <div class="col-lg-12 pt-4">
+         <h1 class="text-center text-priamry">Thanks for contacting<br>We will response you soon.</h1>
         </div>
       </div>
     </div>
