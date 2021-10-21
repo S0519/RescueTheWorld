@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -31,7 +32,7 @@
         </div>
         <div class="section section2">
           <h1>Promotes economic independence around the world</h1>
-          <p>Save Lives, Support Economic Independence</p>
+          <p id="schol">Save Lives, Support Economic Independence</p>
         </div>
       
 
@@ -48,9 +49,15 @@
                 <li class="nav-item">
                   <a class="nav-link text-center" href="about.html">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-center" href="projects.html">Projects</a>
-                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#schol">Scholarship Program</a>
+                    <a class="dropdown-item" href="#farmers">Farmers in Africa</a>
+                  </div>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link text-center" href="contact.html">Contact Us</a>
                 </li>
@@ -66,32 +73,6 @@
     </div>
     
     <div class="container">
-      <div class="row mt-5">
-        <div class="col-lg-6">
-            <div class="sameLine">
-              <img src="Images/dots.png">
-              <h3>Farmers In Africa</h3>
-            </div>
-        </div>
-        <div class="col-lg-6">
-          <hr class="line">
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-lg-12">
-            <p class="text-justify">
-                One of the major projects is the Rescue The World farmers that is taking place from North America to Africa. Farmers in regions like Tanzania and DRC have been using traditional farming methods which expose them to weather fluctuations and poor yields. This has increased their poverty, hunger, and economic wellness falling under the mission of this organization. To help eliminate poverty and hunger, Rescue The World has engaged communities in the training on safe and healthy agricultural practices, market penetration for agricultural goods, and provision of high yield seeds. Such engagements have increased the amounts of crop yields and market value further minimizing poverty levels in these regions.
-                Other regions like Tanzania and Congo are benefiting from programs that aim at reducing unemployment among the youth as they are the most productive demographic. Until 2013, the unemployment rate in Congo averaged 52%, partially due to conflicts within the country. Most of the unemployed youth are joining militias and other criminal organizations to make their living hence the current initiatives that seek to provide them with avenues to utilize their productivity. In the same case, Tanzania has a record rate of 10% as of 2015 though it is decreasing due to multifaceted economic activities such as the ones from Rescue The World.
-                It is the aim of Rescue The World to improve healthcare in all countries under consideration where equipment is taken from developed to underdeveloped regions. This initiative is helping to contain health challenges like mortality rates in Tanzania where more than 40,000 deaths occur annually. Handling health care challenges is further accompanied by programs like sponsoring a child so that their mortality can be reduced significantly. 
-            </p>
-        </div>
-        <div class="col-lg-6">
-            <img class="largeServiceImg2 mb-2" src="Images/farmer1.jpeg">
-        </div>
-        <div class="col-lg-6">
-            <img class="largeServiceImg2 mb-2" src="Images/farmer2.jpeg">
-        </div>
-      </div>
       <div class="row mt-5">
         <div class="col-lg-6">
             <div class="sameLine">
@@ -137,8 +118,35 @@
             <br><br>
             <p><b>2020 Winner; Bahati Kisinja (Kenya)</b></p>
 
-            <p class="text-justify">I’m Bahati Kisinja from Kenya and I’m studying for a Bachelor of Laws (L.LB) at the University of Nairobi. Through the help of Rescue The World International Student Scholarship, I’ve been able to pursue my dream of studying Social Justice to better help my country. I would like to greatly thank Rescue The World, Inc nonprofit organization for awarding me this scholarship. The scholarship has catered for all my needs and gives me the room to concentrate solely on my academics.</p>
+            <p class="text-justify" id="farmers">I’m Bahati Kisinja from Kenya and I’m studying for a Bachelor of Laws (L.LB) at the University of Nairobi. Through the help of Rescue The World International Student Scholarship, I’ve been able to pursue my dream of studying Social Justice to better help my country. I would like to greatly thank Rescue The World, Inc nonprofit organization for awarding me this scholarship. The scholarship has catered for all my needs and gives me the room to concentrate solely on my academics.</p>
           </div>
+      </div>
+      
+      <div class="row mt-5"> 
+        <div class="col-lg-6">
+            <div class="sameLine">
+              <img src="Images/dots.png">
+              <h3>Farmers In Africa</h3>
+            </div>
+        </div>
+        <div class="col-lg-6">
+          <hr class="line">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-12">
+            <p class="text-justify">
+                One of the major projects is the Rescue The World farmers that is taking place from North America to Africa. Farmers in regions like Tanzania and DRC have been using traditional farming methods which expose them to weather fluctuations and poor yields. This has increased their poverty, hunger, and economic wellness falling under the mission of this organization. To help eliminate poverty and hunger, Rescue The World has engaged communities in the training on safe and healthy agricultural practices, market penetration for agricultural goods, and provision of high yield seeds. Such engagements have increased the amounts of crop yields and market value further minimizing poverty levels in these regions.
+                Other regions like Tanzania and Congo are benefiting from programs that aim at reducing unemployment among the youth as they are the most productive demographic. Until 2013, the unemployment rate in Congo averaged 52%, partially due to conflicts within the country. Most of the unemployed youth are joining militias and other criminal organizations to make their living hence the current initiatives that seek to provide them with avenues to utilize their productivity. In the same case, Tanzania has a record rate of 10% as of 2015 though it is decreasing due to multifaceted economic activities such as the ones from Rescue The World.
+                It is the aim of Rescue The World to improve healthcare in all countries under consideration where equipment is taken from developed to underdeveloped regions. This initiative is helping to contain health challenges like mortality rates in Tanzania where more than 40,000 deaths occur annually. Handling health care challenges is further accompanied by programs like sponsoring a child so that their mortality can be reduced significantly. 
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img class="largeServiceImg2 mb-2" src="Images/farmer1.jpeg">
+        </div>
+        <div class="col-lg-6">
+            <img class="largeServiceImg2 mb-2" src="Images/farmer2.jpeg">
+        </div>
       </div>
     </div>
     

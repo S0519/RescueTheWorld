@@ -143,6 +143,10 @@ body{
 .rating{
     color: #056fbb;
 }
+.dropdown-item:hover{
+    background-color: #056fbb;
+    color: white;
+}
 .navbar-brand img{
     width: 200px;
 }
