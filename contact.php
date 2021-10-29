@@ -2,7 +2,7 @@
 if($_POST)
 {
   $msg = $_POST['msg'];
-  mail("hardworkerhamza@gmail.com","Message from ".$_POST['name']." | ".$_POST['email'],$msg);
+  mail("kangasara600@gmail.com","Message from ".$_POST['name']." | ".$_POST['email'],$msg);
 }
 ?>
 <!DOCTYPE html>
